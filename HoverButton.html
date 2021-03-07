@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment 2</title>
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<style type="text/css">
+  .r1:hover {
+  box-shadow: 0 1em 0.6em -0.6em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+.r1 {
+    --color: #f7fff7;
+    --hover: #f7b538;
+  }
+  .r2:hover{
+  box-shadow: 0 1em 0.6em -0.6em var(--hover);
+  transform: translateY(-0.25em);
+  }
+  .r2{
+    --color: #f7fff7;
+    --hover: #3ec300;
+  }
+  .r3:hover{
+  box-shadow: 0 1em 0.6em -0.6em var(--hover);
+  transform: translateY(-0.25em);
+  }
+  .r3{
+    --color: #f7fff7;
+    --hover: #0081a7;
+  }
+  .r4:hover{
+  box-shadow: 0 1em 0.6em -0.6em var(--hover);
+  transform: translateY(-0.25em);
+  }
+  .r4{
+    --color: #f7fff7;
+    --hover: #fbff12;
+  }
+  button {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+    
+    cursor: pointer;
+ 
+  }
+
+  body {
+    color: #fff;
+    background: #17181c;
+    font: 300 1em "Fira Sans", sans-serif;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+  }
+  
+button {
+    color: var(--color);
+    transition: 0.25s;
+  }
+  button:hover, button:focus {
+    border-color: var(--hover);
+    color: var(--hover);
+  }
+  section{
+    display: inline-block;
+  }
+</style>
+<body>
+  <section>
+  <div class="button">
+    <button class="r1">Button 1</button>
+  </div>
+
+  <div class="button">
+    <button class="r2">Button 2</button>
+  </div>
+
+  <div class="button">
+    <button class="r3">Button 3</button>
+  </div>
+
+  <div class="button">
+    <button class="r4">Button 4</button>
+  </div>
+</section>
+</body>
+</html>
